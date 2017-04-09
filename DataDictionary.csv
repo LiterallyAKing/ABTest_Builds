@@ -1,0 +1,18 @@
+PlayerID,"Unique identifier for each player. Generated when game begins, or on reset via 123."
+GameType,Experiment or Control.
+DateOfSession,Date
+Play_StartTime,Time session began for this player.
+Play_EndTime,Time session ended for this player.
+Play_TotalTime,"Total playtime, in milliseconds."
+Total#OfRuns,Number of completed runs (made it to shop screen)
+AvgTimePerRun,"Total time spent in runs, divided by number of successful runs."
+TotalMoneyEarned,Total money earned by this player
+TotalMoneySpent,Amount of money spent on upgrades
+#SpeedUpgradesPurchased,Number of times this player purchased a speed upgrade
+#ThrusterUpgradesPurchased,Number of times this player purchased a thruster upgrade
+#ThrustsAttemptedTotal,Number of times the player attempted a thruster bounce by hitting space across all runs
+#ThrustsInitiatedTotal,Number of times hitting space actually initiated a thruster bounce across all runs
+#BouncersHitTotal,"Number of bouncers hit, across all runs"
+#BouncersHitDuringThrustTotal,"Number of bouncers hit while thrusters active, across all runs"
+FurthestDistanceAchieved,Highest distance across all this player's runs
+AvgDistImprovementPerRun,Average distance improvement of each subsequent run by this player.
